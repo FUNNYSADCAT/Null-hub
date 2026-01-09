@@ -1,6 +1,6 @@
 local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/FUNNYSADCAT/Null-Games/refs/heads/main/lua.lua"))()
 
-local URL = Games[game.GameId]
+local URL = Games[game.PlaceId]
 
 if URL then
   loadstring(game:HttpGet(URL))()
